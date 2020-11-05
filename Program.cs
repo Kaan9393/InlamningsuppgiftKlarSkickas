@@ -318,5 +318,11 @@ namespace Test99InlämingKlarMETOD
             }
             return random;
         }
+        static decimal KnopToKM(decimal knop)
+        {
+            decimal knopTokm = 1.852M;
+            decimal KM = knop * knopTokm;
+            return Math.Round(KM, 1);
+        }
     }
 }
